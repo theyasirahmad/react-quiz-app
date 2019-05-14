@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: rgb(50, 111, 192); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top,  rgb(50, 111, 192) , rgb(29, 67, 116)  ); 
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+.App-header2 {
+  background-color: rgb(50, 111, 192); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top,  rgb(50, 111, 192) , rgb(29, 67, 116)  ); 
+  height: 150px;
+  padding: 20px;
+  color: white;
+  padding-left: 150px;
+}
+.App-title {
+  font-size: 1.5em;
+  text-align: left;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.container{
+  position: absolute;
+  margin-top: 170px;
+  display: block; 
+  text-align: left;
+}
+
+.containermain{
+  position: relative;
+  margin-left: 150px;
+  width: auto;
+  display: block;
+}
+
+li{
+  list-style: none;
+  margin: 20px;
+  display: inline-block;
+
+}
+.containerSide{
+  position: absolute;
+  width: 100%;
+  background-color:#222;
+  color: whitesmoke;
+  text-align: left;
+  display: block;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+.containerSide ul {
+  padding: 5px;
+}
+.block label{
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.containerstyled{
+  display: inline-block;
+  text-align: center;
+
+}
+.containerstyled li{
+  margin: 0 10px;
+}
+.containerSide h4{
+  display: inline-block;
+}
+h5{
+  font-weight: bold;
+}
+.logindiv{
+  width:100%;
+  display: inline-block; 
+  border: 2px solid  black;
+  padding: 20px;  
+  border-radius: 15px;
+
+}
+.signupdiv{
+  width:100%;
+  display: inline-block;   
+  border: 2px solid  black;
+  border-radius: 15px;
+  padding: 20px;  
+
+}
+.containerlogin{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
